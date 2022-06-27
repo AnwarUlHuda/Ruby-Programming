@@ -6,3 +6,12 @@ print arr
 
 ar=Array.new
 print ar
+
+arra=Array.new(4,0)
+print arra
+
+nils=Array.new(3)
+print nils
+
+abc=[10]*8
+print abc
