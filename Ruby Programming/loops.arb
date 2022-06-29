@@ -1,0 +1,18 @@
+i=2
+loop do
+    break if i==10
+    puts i
+    i=i+1
+end
+k=5
+loop {
+    k=k+1
+    puts k
+    break if k==10
+}
+j=9
+loop do
+    puts j
+    j=j+1
+    break if j==15
+end
