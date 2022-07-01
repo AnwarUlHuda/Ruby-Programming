@@ -46,3 +46,25 @@ puts "\n"
 
 #select element after first n elements
 print arr.drop(3)
+puts "\n"
+
+#select element from particular index
+print arr.at(4)
+puts "\n"
+
+#Above is similar to below
+print arr[4]
+puts "\n"
+
+#select n elements from particular index
+print arr[1,5]
+
+puts "\n"
+#select between the indices including last index element
+print arr[1..4]
+puts "\n"
+
+#select between the indices excluding last index element
+print arr[2...5]
+
+puts "\n"
