@@ -4,7 +4,7 @@ print empty_hash
 
 puts "\n"
 
-#create default Hash
+#create default Hash where each key has default value 1
 default_hash=Hash.new(1)
 print default_hash
 
